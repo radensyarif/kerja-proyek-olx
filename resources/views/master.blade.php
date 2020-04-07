@@ -17,7 +17,7 @@
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">	   
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 		    <form class="form-inline w-100 justify-content-end">
 		     	<input class="form-control mr-sm-2" style="width: 100vh;" type="search" placeholder="Temukan Mobil, Motor, Handphone, dan Lainnya..." aria-label="Search">
 		     	<button class="btn btn-outline-primary my-2 my-sm-0 mr-sm-2" type="submit">Search</button>
@@ -56,22 +56,22 @@
 	</nav>
 	<ul class="nav justify-content-center navbar-light bg-light">
 	  <li class="nav-item">
-	    <a class="nav-link" href="/barang/mobil">Mobil bekas</a>
+	    <a class="nav-link" href="{{ route('barang.mobil') }}">Mobil bekas</a>
 	  </li>
 	  <li class="nav-item">
-	    <a class="nav-link" href="/barang/motor">Motor bekas</a>
+	    <a class="nav-link" href="{{ route('barang.motor') }}">Motor bekas</a>
 	  </li>
 	  <li class="nav-item">
-	    <a class="nav-link" href="/barang/handphone">Handphone</a>
+	    <a class="nav-link" href="{{ route('barang.handphone') }}">Handphone</a>
 	  </li>
 	  <li class="nav-item">
-	    <a class="nav-link" href="/barang/televisi">TV & Audio, Video</a>
+	    <a class="nav-link" href="{{ route('barang.televisi') }}">TV & Audio, Video</a>
 	  </li>
 	</ul>
 	@yield('carousel')
 
 	@yield('card')
-	
+
 	<footer class="footer">
 		<ul class="nav justify-content-center mb-2">
 		  <li class="nav-item mr-sm-2">

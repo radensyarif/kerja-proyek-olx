@@ -17,8 +17,10 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('barang', 'HomeController@index');
-Route::get('/barang/mobil', 'HomeController@mobil');
-Route::get('/barang/motor', 'HomeController@motor');
-Route::get('/barang/handphone', 'HomeController@handphone');
-Route::get('/barang/televisi', 'HomeController@televisi');
+Route::prefix('barang')->name('barang.')->group(function(){
+    Route::get('/', 'HomeController@index');
+    Route::get('mobil', 'HomeController@mobil')->name('mobil');
+    Route::get('motor', 'HomeController@motor')->name('motor');
+    Route::get('handphone', 'HomeController@handphone')->name('handphone');
+    Route::get('televisi', 'HomeController@televisi')->name('televisi');
+});
