@@ -65,7 +65,7 @@
 	    <a class="nav-link" href="{{ route('barang.handphone') }}">Handphone</a>
 	  </li>
 	  <li class="nav-item">
-	    <a class="nav-link" href="{{ route('barang.televisi') }}">TV & Audio, Video</a>
+	    <a class="nav-link" href="{{ route('barang.televisi ') }}">TV & Audio, Video</a>
 	  </li>
 	</ul>
 	@yield('carousel')
