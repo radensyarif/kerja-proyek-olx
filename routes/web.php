@@ -13,11 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
 
-Route::prefix('barang')->namespace('Home')->name('barang.')->group(function(){
+Route::namespace('Home')->group(function(){
     Route::get('/', 'HomeController@index')->name('home');
     Route::get('mobil', 'HomeController@mobil')->name('mobil');
     Route::get('motor', 'HomeController@motor')->name('motor');

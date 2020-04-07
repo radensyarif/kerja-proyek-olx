@@ -10,7 +10,7 @@
 	      <p class="card-text">Motor kawasaki KLX.</p>
 	      <span class="badge badge-warning">Rp. 1.500.000</span>
 	      <p class="card-text"><small class="text-muted">3 hours ago</small></p>
-	      <span class="badge badge-primary" type="submit">Beli</span>
+	      <span class="btn btn-primary" type="submit">Beli</span>
 	    </div>
 	  </div>
 	  <div class="card">
@@ -20,7 +20,7 @@
 	      <p class="card-text">Motor kawasaki KLX.</p>
 	      <span class="badge badge-warning">Rp. 1.500.000</span>
 	      <p class="card-text"><small class="text-muted">35 minutes ago</small></p>
-	      <span class="badge badge-primary" type="submit">Beli</span>
+	      <span class="btn btn-primary" type="submit">Beli</span>
 	    </div>
 	  </div>
 	  <div class="card">
@@ -30,7 +30,7 @@
 	      <p class="card-text">Motor kawasaki KLX.</p>
 	      <span class="badge badge-warning">Rp. 1.500.000</span>
 	      <p class="card-text"><small class="text-muted">2 hours ago</small></p>
-	      <span class="badge badge-primary" type="submit">Beli</span>
+	      <span class="btn btn-primary" type="submit">Beli</span>
 	    </div>
 	  </div>
 	</div>

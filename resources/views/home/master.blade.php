@@ -13,7 +13,7 @@
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
 		<div class="container">
-		  <a class="navbar-brand" href="{{ route('barang.home') }}"><img src="{{asset('img/olxLogo.png')}}" width="50"></a>
+		  <a class="navbar-brand" href="{{ route('home') }}"><img src="{{asset('img/olxLogo.png')}}" width="50"></a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
@@ -56,16 +56,16 @@
 	</nav>
 	<ul class="nav justify-content-center navbar-light bg-light">
 	  <li class="nav-item">
-	    <a class="nav-link" href="{{ route('barang.mobil') }}">Mobil bekas</a>
+	    <a class="nav-link" href="{{ route('mobil') }}">Mobil bekas</a>
 	  </li>
 	  <li class="nav-item">
-	    <a class="nav-link" href="{{ route('barang.motor') }}">Motor bekas</a>
+	    <a class="nav-link" href="{{ route('motor') }}">Motor bekas</a>
 	  </li>
 	  <li class="nav-item">
-	    <a class="nav-link" href="{{ route('barang.handphone') }}">Handphone</a>
+	    <a class="nav-link" href="{{ route('handphone') }}">Handphone</a>
 	  </li>
 	  <li class="nav-item">
-	    <a class="nav-link" href="{{ route('barang.televisi') }}">TV & Audio, Video</a>
+	    <a class="nav-link" href="{{ route('televisi') }}">TV & Audio, Video</a>
 	  </li>
 	</ul>
 	@yield('carousel')
