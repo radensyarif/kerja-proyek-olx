@@ -1,4 +1,4 @@
-@extends('master')
+@extends('home.master')
 
 @section('carousel')
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">

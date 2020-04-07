@@ -1,28 +1,29 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Home;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
     public function index(){
-    	return view('master');
+    	return view('home.index');
     }
 
     public function mobil(){
-    	return view('mobil');
+    	return view('home.mobil');
     }
 
     public function motor(){
-    	return view('motor');
+    	return view('home.motor');
     }
 
     public function handphone(){
-    	return view('handphone');
+    	return view('home.handphone');
     }
 
     public function televisi(){
-    	return view('televisi');
+    	return view('home.televisi');
     }
 }

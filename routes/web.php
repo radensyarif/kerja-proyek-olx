@@ -17,8 +17,8 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::prefix('barang')->name('barang.')->group(function(){
-    Route::get('/', 'HomeController@index');
+Route::prefix('barang')->namespace('Home')->name('barang.')->group(function(){
+    Route::get('/', 'HomeController@index')->name('home');
     Route::get('mobil', 'HomeController@mobil')->name('mobil');
     Route::get('motor', 'HomeController@motor')->name('motor');
     Route::get('handphone', 'HomeController@handphone')->name('handphone');
