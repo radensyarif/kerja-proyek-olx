@@ -21,3 +21,15 @@ Route::namespace('Home')->group(function(){
     Route::get('handphone', 'HomeController@handphone')->name('handphone');
     Route::get('televisi', 'HomeController@televisi')->name('televisi');
 });
+
+Route::prefix('dashboard')->namespace('Dashboard')->group(function(){
+    Route::namespace('Users')->group(function(){
+
+        Route::prefix('admin')->namespace('Admin')->name('admin.')->group(function(){
+            Route::get('/','AdminController@index')->name('index');
+            Route::get('form/{id?}','AdminController@form')->name('form');
+            Route::get('delete/{id?}','AdminController@delete')->name('delete');
+            Route::post('store/{id?}','AdminController@store')->name('store');
+        });
+    });
+});
